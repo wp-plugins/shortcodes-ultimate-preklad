@@ -1,5 +1,5 @@
 ﻿=== Shortcodes Ultimate překlad ===
-Contributors: Expres-Web
+Contributors: expres-Web
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: Shortcodes Ultimate, překlad, Shortcodes Ultimate čeština, Shortcodes Ultimate slovenština
 Requires at least: Shortcodes Utimate 3.9.5
