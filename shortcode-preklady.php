@@ -2,8 +2,8 @@
 /*
 Plugin Name: Shortcodes Ultimate překlad
 Plugin URI: http://wordpress.org/extend/plugins/shortcodes-ultimate-preklad/
-Description: Přeloží plugin shortcodes-ultimate do více jazyků včetně češtiny a slovenštiny. Pro aktuální verzi navštivte web pluginu
-Version: 1.0
+Description: Přeloží plugin shortcodes-ultimate do více jazyků včetně češtiny a slovenštiny.
+Version: 1.1
 Author: Expres-Web.cz
 Author URI: http://wpguru.eu
 Text Domain: app
@@ -29,10 +29,10 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 /**
  * Maybe load the Shortcodes Ultimate překlad.
  *
- * @since 1.0
+ * @since 1.1
  */
 function app_load_textdomain() {
-	$mofile = WP_PLUGIN_DIR . '/shortcode-preklad/jazyky/' . apply_filters( 'shortcodes-ultimate_locale', get_locale() ) . '.mo';
+	$mofile = WP_PLUGIN_DIR . '/shortcodes-ultimate-preklad/jazyky/' . apply_filters( 'shortcodes-ultimate_locale', get_locale() ) . '.mo';
 
 	if ( file_exists( $mofile ) )
 		return load_textdomain( 'shortcodes-ultimate', $mofile );
