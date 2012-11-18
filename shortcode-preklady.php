@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Shortcodes Ultimate překlad
-Plugin URI: http://wordpress.org/extend/plugins/shortcodes-ultimate-preklad/
+Plugin URI: http://wpguru.eu
 Description: Přeloží plugin shortcodes-ultimate do více jazyků včetně češtiny a slovenštiny.
-Version: 1.1
+Version: 1.2
 Author: Expres-Web.cz
-Author URI: http://wpguru.eu
+Author URI: http://www.expres-web.cz
 Text Domain: app
 
 This program is free software; you can redistribute it and/or modify
