@@ -3,7 +3,7 @@
 Plugin Name: Shortcodes Ultimate překlad
 Plugin URI: http://wpguru.eu
 Description: Přeloží plugin shortcodes-ultimate do více jazyků včetně češtiny a slovenštiny.
-Version: 1.3
+Version: 1.4
 Author: Expres-Web.cz
 Author URI: http://www.expres-web.cz
 Text Domain: app
@@ -37,4 +37,4 @@ function app_load_textdomain() {
 	if ( file_exists( $mofile ) )
 		return load_textdomain( 'shortcodes-ultimate', $mofile );
 }
-add_action( 'wp_loaded', 'app_load_textdomain' );
+add_action( 'UP_loaded', 'app_load_textdomain' );
